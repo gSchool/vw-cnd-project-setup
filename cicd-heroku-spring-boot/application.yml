@@ -11,7 +11,7 @@ spring:
     hibernate:
       ddl-auto: validate
   datasource:
-    url: jdbc:postgresql://localhost:5432/gmdb
+    url: jdbc:postgresql://localhost:5432/[your_db]
     username: gmdb_app
     password: strong!pw
 ---
