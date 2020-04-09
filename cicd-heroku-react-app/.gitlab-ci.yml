@@ -10,15 +10,13 @@ stages:
 cache:
   paths:
     - .npm
+    - node_modules
 
 install:
   stage: install
   script:
     - npm ci
-  artifacts:
-    name: "artifacts"
-    untracked: true
-    expire_in: 30 mins
+  cache:
     paths:
       - .npm/
       - node_modules
