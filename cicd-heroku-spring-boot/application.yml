@@ -1,0 +1,36 @@
+spring:
+  profiles:
+    active: development
+---
+spring:
+  profiles: development
+  jpa:
+    show_sql: true
+    database: POSTGRESQL
+    generate-ddl: true
+    hibernate:
+      ddl-auto: validate
+  datasource:
+    url: jdbc:postgresql://localhost:5432/gmdb
+    username: gmdb_app
+    password: strong!pw
+---
+server:
+  port: ${PORT}
+spring:
+  profiles: prod
+  jpa:
+    database: POSTGRESQL
+    generate-ddl: false
+    hibernate:
+      ddl-auto: none
+  datasource:
+    url: jdbc:${DATABASE_UR}
+---
+spring:
+  profiles: test
+  jpa:
+    show_sql: false
+    database: H2
+  datasource:
+    url: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
