@@ -33,6 +33,7 @@ Use the templates provided to get started setting up CI/CD for your projects. Yo
 * The `package.json` has updates used in the CI/CD (jest test coverage)
 * The `application.yml` tells spring boot to use Heroku defined environmenmt variables in prod to run your app
 * You need to generate a Heroku API Token and add it to both the repositories' Settings > CI/CD > Variables (munu on the left of repo has `Settings`). The example `gitlab-ci.yml` files reference it as `HEROKU_API_KEY`
+* You should set the environment variable `SPRING_PROFILES_ACTIVE` to `prod` in heroku
 
 ## TWA
 Finish your TWA with team if not done. One final element that is part of the team working agreement is the schedule of the daily and weekly ceremonies. As a team decide on the time and day for each. Retro should be on Friday. I would like to be able to attend the retros if the teams are willing to accomodate this, please make sure the retros do not overlap.
