@@ -47,5 +47,5 @@ Retro Time Slots:
  - 14:00 - 15:00 (Team 1)
  - 15:00 - 16:00
 
-
+If you do not agree as a team with the remaining time slots propose another, but I may not be able to attend every week.
 Send a calendar invite for your chosen time to danny.tunon@galvanize.com
