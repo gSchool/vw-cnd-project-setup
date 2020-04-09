@@ -36,7 +36,7 @@ Use the teplates provided to get started setting up CI/CD for your projects. You
 
 ## TWA
 Finish your TWA with team if not done. One final element that is part of the team working agreement is the schedule of the daily and weekly ceremonies. As a team decide on the time and day for each. Retro should be on Friday. I would like to be able to attend the retros if the teams are willing to accomodate this, please make sure the retros do not overlap.
-1. Iteration Plannong Meeting
+1. Iteration Planning Meeting
 1. Backlog Refinement Meeting
 1. Retro
 
@@ -47,4 +47,4 @@ Retro Time Slots:
  - 15:00 - 16:00
  - 16:00 - 17:00
 
-Send a calendar invite for your chose time to danny.tunon@galvanize.com
+Send a calendar invite for your chosen time to danny.tunon@galvanize.com
