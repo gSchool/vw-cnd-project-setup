@@ -40,4 +40,11 @@ Finish your TWA with team if not done. One final element that is part of the tea
 1. Backlog Refinement Meeting
 1. Retro
 
+Retro Time Slots:
+
+ - 13:00 - 14:00
+ - 14:00 - 15:00
+ - 15:00 - 16:00
+ - 16:00 - 17:00
+
 Send a calendar invite for your chose time to danny.tunon@galvanize.com
