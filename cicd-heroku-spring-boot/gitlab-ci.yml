@@ -1,0 +1,35 @@
+image: gradle:jdk11
+
+stages:
+  - build
+  - test
+  - deploy 
+  
+build:
+  stage: build
+  script:
+    - ./gradlew assemble
+  artifacts:
+    paths:
+      - build/libs/*.jar
+    expire_in: 1 week
+  only:
+    - master
+
+test:
+  stage: test
+  script:
+    - ./gradlew check -Dspring.active.profiles=test
+
+
+staging:
+  stage: deploy
+  script:
+    - curl https://cli-assets.heroku.com/install.sh | sh
+    - export HEROKU_API_KEY=$HEROKU_API_KEY
+    - heroku plugins:install java
+    - heroku deploy:jar build/libs/*.jar -a gmdb-api-monolith
+  dependencies:
+    - build
+  only:
+    - master
