@@ -21,9 +21,6 @@ spring:
   profiles: prod
   jpa:
     database: POSTGRESQL
-    generate-ddl: false
-    hibernate:
-      ddl-auto: none
   datasource:
     url: jdbc:${DATABASE_UR}
 ---
