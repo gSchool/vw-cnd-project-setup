@@ -18,7 +18,7 @@ Use `create-react-app` to get the client bootstrapped and connect to your repo.
 Use Spring Initialzr to get your backend bootstrapped
 
 ## Heroku
-Heroku Teams unfortunately require a credit card to set up. Instead have one team member set up a heroku account (or create a team email) and add all team members as collaborators.
+Heroku Teams unfortunately require a credit card to set up. Instead have one team member creat the app under their account (or create a team email and use it to make a heroku account) and add all team members as collaborators (the need heroku accounts too).
 1. Create App for Client
 1. Heroku App for Backend
 1. Add postgres db addon
