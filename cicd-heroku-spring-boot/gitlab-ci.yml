@@ -28,7 +28,7 @@ staging:
     - curl https://cli-assets.heroku.com/install.sh | sh
     - export HEROKU_API_KEY=$HEROKU_API_KEY
     - heroku plugins:install java
-    - heroku deploy:jar build/libs/*.jar -a gmdb-api-monolith
+    - heroku deploy:jar build/libs/*.jar -a [YOUR_HEROKU_APP]
   dependencies:
     - build
   only:
