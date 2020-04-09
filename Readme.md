@@ -42,9 +42,10 @@ Finish your TWA with team if not done. One final element that is part of the tea
 
 Retro Time Slots:
 
- - 13:00 - 14:00
- - 14:00 - 15:00
+ - 12:00 - 13:00
+ - 13:00 - 14:00 (Team 2)
+ - 14:00 - 15:00 (Team 1)
  - 15:00 - 16:00
- - 16:00 - 17:00
+
 
 Send a calendar invite for your chosen time to danny.tunon@galvanize.com
