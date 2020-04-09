@@ -19,7 +19,7 @@ build:
 test:
   stage: test
   script:
-    - ./gradlew check -Dspring.active.profiles=test
+    - ./gradlew check -Dspring.profiles.active=test
 
 
 staging:
